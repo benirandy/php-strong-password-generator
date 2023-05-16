@@ -12,7 +12,7 @@
             $numbers = "0123456789";
             $symbols = "=?^()/&%$#]+";
 
-            $fullCharacters = $alphabet . strtoupper($alphabet) . $numbers .$symbols
+            $fullCharacters = $alphabet . strtoupper($alphabet) . $numbers .$symbols;
 
             if (empty($passwordLenght)) {
              $result = "il parametro l dove non è valido?";
